@@ -7,9 +7,9 @@ const Home = () => {
 		<div>
 			<Banner></Banner>
 			<Story></Story>
-			<div className='w-[300px] h-[200px] relative'>
+			{/* <div className='w-[300px] h-[200px] relative'>
 				<div className='bg-element'></div>
-			</div>
+			</div> */}
 		</div>
 	);
 };
