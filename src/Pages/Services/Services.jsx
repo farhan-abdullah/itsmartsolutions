@@ -6,7 +6,7 @@ import svg1 from './../../assets/front-end.svg';
 import svg2 from './../../assets/front-end.svg';
 const Services = () => {
 	return (
-		<div className='md:max-w-[63%] w-full p-5 mx-auto text-[#FFFFFF99] mt-5'>
+		<div className='md:w-[70%] sm:w-full p-5 mx-auto text-[#FFFFFF99] mt-5'>
 			<div>
 				<div className='space-y-8 mb-8'>
 					<p className='text-mezenda tracking-wider	'>SERVICES</p>
@@ -18,8 +18,8 @@ const Services = () => {
 				</div>
 				<div></div>
 			</div>
-			<div className='grid md:grid-cols-2 md:grid-rows-3 justify-center'>
-				<div className='md:h-[460px] md:w-[600px] bg-tertiary p-5 md:p-20 space-y-10'>
+			<div className='grid md:grid-cols-2 gap-0'>
+				<div className=' bg-tertiary p-5 md:p-20 space-y-10'>
 					<div className='flex justify-between'>
 						<h1 className='md:text-5xl text-3xl font-bold text-[white]'>
 							Front End Development
@@ -34,7 +34,7 @@ const Services = () => {
 						Discover more
 					</button>
 				</div>
-				<div className='md:h-[460px] md:w-[600px] bg-secondary p-5 md:p-20 space-y-10'>
+				<div className=' bg-secondary p-5 md:p-20 space-y-10'>
 					<div className='flex justify-between'>
 						<h1 className='md:text-5xl text-3xl font-bold text-[white]'>
 							UI/UX <br /> Design
@@ -49,7 +49,7 @@ const Services = () => {
 						Discover more
 					</button>
 				</div>
-				<div className='md:h-[460px] md:w-[600px] bg-secondary p-5 md:p-20 space-y-10'>
+				<div className=' bg-secondary p-5 md:p-20 space-y-10'>
 					<div className='flex justify-between'>
 						<h1 className='md:text-5xl text-3xl font-bold text-[white]'>
 							Front End Development
@@ -64,7 +64,7 @@ const Services = () => {
 						Discover more
 					</button>
 				</div>
-				<div className='md:h-[460px] md:w-[600px] bg-pink p-5 md:p-20 space-y-10'>
+				<div className=' bg-pink p-5 md:p-20 space-y-10'>
 					<div className='flex justify-between'>
 						<h1 className='md:text-5xl text-3xl font-bold text-[white]'>
 							Front End Development
@@ -79,7 +79,7 @@ const Services = () => {
 						Discover more
 					</button>
 				</div>
-				<div className='md:h-[460px] md:w-[600px] bg-tertiary p-5 md:p-20 space-y-10'>
+				<div className=' bg-tertiary p-5 md:p-20 space-y-10'>
 					<div className='flex justify-between'>
 						<h1 className='md:text-5xl text-3xl  font-bold text-[white]'>
 							Front End Development
@@ -94,7 +94,7 @@ const Services = () => {
 						Discover more
 					</button>
 				</div>
-				<div className='md:h-[460px] md:w-[600px] bg-secondary p-5 md:p-20 space-y-10'>
+				<div className=' bg-secondary p-5 md:p-20 space-y-10'>
 					<div className='flex justify-between'>
 						<h1 className='md:text-5xl text-3xl  font-bold text-[white]'>
 							Front End Development
