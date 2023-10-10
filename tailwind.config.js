@@ -7,6 +7,7 @@ export default {
 			secondary: '#343657', //card
 			tertiary: '#333787', //footer
 			pink: '#DB3647',
+			mezenda: '#00B9C5',
 		},
 	},
 	plugins: [],

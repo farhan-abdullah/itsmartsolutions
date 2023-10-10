@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
 import Story from '../Story/Story';
+import Services from '../Services/Services';
 
 const Home = () => {
 	return (
@@ -10,6 +11,7 @@ const Home = () => {
 			{/* <div className='w-[300px] h-[200px] relative'>
 				<div className='bg-element'></div>
 			</div> */}
+			<Services></Services>
 		</div>
 	);
 };

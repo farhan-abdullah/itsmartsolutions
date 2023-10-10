@@ -22,21 +22,21 @@ const Header = () => {
 				</div>
 			</div>
 			<nav
-				className={`md:flex md:w-[75%] mx-auto md:justify-between z-40 md:h-[70px] absolute md:fixed md:p-10 md:px-20 left-0 right-0 duration-700 md:items-center ${
+				className={`md:flex md:w-[75%] mx-auto  z-40 md:h-[70px] absolute md:p-10 md:px-20 left-0 right-0 duration-700 md:items-center ${
 					isOpen ? 'pt-10 pb-3 md:p-0 bg-white' : '-mt-80 md:mt-0'
 				} `}>
 				<div className=''>
 					<img className='w-[370px] hidden md:block mt-32' src={logo} alt='' />
 				</div>
 				<div className='uppercase text-[white] text-[18px] md:space-x-4 flex justify-between flex-col space-y-3 md:space-y-0 items-center md:flex-row'>
-					<span className='cursor-pointer font-semibold hover:text-secondary duration-700 delay-100'>
+					<span className='cursor-pointer font-semibold hover:text-mezenda duration-700 delay-100'>
 						About
 					</span>
 
-					<span className='cursor-pointer font-semibold hover:text-secondary duration-700 delay-100'>
+					<span className='cursor-pointer font-semibold hover:text-mezenda duration-700 delay-100'>
 						Works
 					</span>
-					<span className='cursor-pointer font-semibold hover:text-secondary duration-700 delay-100'>
+					<span className='cursor-pointer font-semibold hover:text-mezenda duration-700 delay-100'>
 						Contact
 					</span>
 				</div>

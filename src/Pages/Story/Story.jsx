@@ -9,22 +9,22 @@ const Story = () => {
 						<h1 className='font-extrabold text-5xl'>99%</h1>
 						<p className='text-1xl font-semibold w-1/2'>Success in getting customer</p>
 					</div>
-					<div className='flex md:flex-row flex-col gap-4  items-center'>
+					{/* <div className='flex md:flex-row flex-col gap-4  items-center'>
 						<h1 className='font-extrabold text-5xl'>25k</h1>
 						<p className='text-1xl font-semibold w-1/2'>
 							Thousands of successful business
 						</p>
-					</div>
-					<div className='flex md:flex-row flex-col gap-4  items-center'>
+					</div> */}
+					{/* <div className='flex md:flex-row flex-col gap-4  items-center'>
 						<h1 className='font-extrabold text-5xl'>120+</h1>
 						<p className='text-1xl font-semibold w-1/2'>
 							Total client who love Solvero
 						</p>
-					</div>
+					</div> */}
 					<div className='flex md:flex-row flex-col gap-4 items-center'>
 						<h1 className='font-extrabold text-5xl'>4.9</h1>
 						<p className='text-1xl font-semibold w-1/2'>
-							3.5 Reviews are very satisfied with us
+							Reviews are very satisfied with us
 						</p>
 					</div>
 				</div>
