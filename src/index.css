@@ -6,6 +6,16 @@
 * {
 	font-family: 'Work Sans', sans-serif;
 }
-.f{
-	 
+.bg-element {
+	background-image: url('./assets/dot.png');
+	background-position: bottom left;
+	mix-blend-mode: multiply;
+	background-repeat: no-repeat;
+	z-index: 99;
+	position: fixed;
+	opacity: 0.3;
+	left: 0;
+	top: 1000;
+	width: 24%;
+	height: 31%;
 }

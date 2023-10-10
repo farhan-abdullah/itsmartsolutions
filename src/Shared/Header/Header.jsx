@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import logo from '../../assets/logo.svg';
+import logo1 from '../../assets/logo.png';
 const Header = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
@@ -9,9 +10,9 @@ const Header = () => {
 	return (
 		<>
 			<div
-				className={`cursor-pointer md:hidden flex items-center justify-between p-5 `}
+				className={`cursor-pointer md:hidden flex items-center justify-between bg-[white] p-5 `}
 				onClick={() => setIsOpen(!isOpen)}>
-				<img className='w-[140px]' src='https://i.ibb.co/88NpLqP/m12.png' alt='' />
+				<img className='h-auto w-[200px]' src={logo1} alt='' />
 				<div>
 					{isOpen ? (
 						<FaTimes className='text-4xl text-gray-200'></FaTimes>
@@ -25,7 +26,7 @@ const Header = () => {
 					isOpen ? 'pt-10 pb-3 md:p-0 bg-white' : '-mt-80 md:mt-0'
 				} `}>
 				<div className=''>
-					<img className='w-[370px] mt-32' src={logo} alt='' />
+					<img className='w-[370px] hidden md:block mt-32' src={logo} alt='' />
 				</div>
 				<div className='uppercase text-[white] text-[18px] md:space-x-4 flex justify-between flex-col space-y-3 md:space-y-0 items-center md:flex-row'>
 					<span className='cursor-pointer font-semibold hover:text-secondary duration-700 delay-100'>
