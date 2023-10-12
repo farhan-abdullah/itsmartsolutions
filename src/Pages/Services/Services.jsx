@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import front from './../../assets/front-end.svg';
 import server from './../../assets/server.svg';
 import ui from './../../assets//ux.svg';
@@ -6,6 +8,9 @@ import svg1 from './../../assets/webpages.svg';
 import svg2 from './../../assets/seo.svg';
 import socialmedia from './../../assets/social-media.svg';
 const Services = () => {
+	useEffect(() => {
+		AOS.init();
+	});
 	return (
 		<div className='relative overflow-hidden'>
 			<div className='absolute overflow-hidden  top-0 md:-right-[200px] 2xl:-right-5 my-5'>
@@ -27,7 +32,11 @@ const Services = () => {
 					</div>
 				</div>
 				<div className='grid md:grid-cols-2 gap-0'>
-					<div className=' bg-tertiary p-5 md:px-10 md:py-20 2xl:px-16 space-y-10'>
+					<div
+						data-aos='fade-up'
+						data-aos-duration='2500'
+						data-aos-delay='100'
+						className=' bg-tertiary p-5 md:px-10 md:py-20 2xl:px-16 space-y-10'>
 						<div className='flex justify-between'>
 							<h1 className='md:text-4xl 2xl:text-5xl  text-2xl font-bold text-[white]'>
 								Front End Development
@@ -40,7 +49,10 @@ const Services = () => {
 						</p>
 						<button className='btn-primary'>Discover more</button>
 					</div>
-					<div className=' bg-secondary p-5 md:px-10 md:py-20 2xl:px-16 space-y-10  '>
+					<div
+						data-aos='fade-up'
+						data-aos-duration='2000'
+						className=' bg-secondary p-5 md:px-10 md:py-20 2xl:px-16 space-y-10  '>
 						<div className='flex justify-between'>
 							<h1 className='md:text-4xl 2xl:text-5xl  text-2xl font-bold text-[white]'>
 								UI/UX <br /> Design
@@ -53,7 +65,10 @@ const Services = () => {
 						</p>
 						<button className='btn-primary'>Discover more</button>
 					</div>
-					<div className=' bg-secondary p-5 md:px-10 md:py-20 2xl:px-16 space-y-10'>
+					<div
+						data-aos='fade-up'
+						data-aos-duration='1000'
+						className=' bg-secondary p-5 md:px-10 md:py-20 2xl:px-16 space-y-10'>
 						<div className='flex justify-between'>
 							<h1 className='md:text-4xl 2xl:text-5xl  text-2xl font-bold text-[white]'>
 								Back End Development
@@ -66,7 +81,10 @@ const Services = () => {
 						</p>
 						<button className='btn-primary'>Discover more</button>
 					</div>
-					<div className=' bg-pink p-5 md:px-10 md:py-20 2xl:px-16 space-y-10'>
+					<div
+						data-aos='fade-up'
+						data-aos-duration='3000'
+						className=' bg-pink p-5 md:px-10 md:py-20 2xl:px-16 space-y-10'>
 						<div className='flex justify-between'>
 							<h1 className='md:text-4xl 2xl:text-5xl  text-2xl font-bold text-[white]'>
 								CMS
@@ -79,7 +97,10 @@ const Services = () => {
 						</p>
 						<button className='btn-primary'>Discover more</button>
 					</div>
-					<div className=' bg-tertiary p-5 md:px-10 md:py-20 2xl:px-16 space-y-10'>
+					<div
+						data-aos='fade-up'
+						data-aos-duration='1500'
+						className=' bg-tertiary p-5 md:px-10 md:py-20 2xl:px-16 space-y-10'>
 						<div className='flex justify-between'>
 							<h1 className='md:text-4xl 2xl:text-5xl text-2xl  font-bold text-[white]'>
 								SEO
@@ -92,7 +113,10 @@ const Services = () => {
 						</p>
 						<button className='btn-primary'>Discover more</button>
 					</div>
-					<div className=' bg-secondary p-5 md:px-10 md:py-20 2xl:px-16 space-y-10'>
+					<div
+						data-aos='fade-up'
+						data-aos-duration='2000'
+						className=' bg-secondary p-5 md:px-10 md:py-20 2xl:px-16 space-y-10'>
 						<div className='flex justify-between'>
 							<h1 className='md:text-4xl 2xl:text-5xl text-2xl  font-bold text-[white]'>
 								Digital Marketing
