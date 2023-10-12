@@ -11,7 +11,7 @@ const Banner = () => {
 		height: '70vh',
 		display: 'relative',
 	};
-	return <div style={containerStyle} className=' opacity-30'></div>;
+	return <div style={containerStyle} className='  opacity-30'></div>;
 };
 
 export default Banner;
