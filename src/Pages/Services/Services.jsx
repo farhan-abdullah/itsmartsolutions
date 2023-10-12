@@ -1,117 +1,114 @@
-import React from 'react';
-import front from './../../assets/front-end.svg';
-import server from './../../assets/front-end.svg';
-import ui from './../../assets//ux.svg';
-import svg1 from './../../assets/front-end.svg';
-import svg2 from './../../assets/front-end.svg';
+import React from "react";
+import front from "./../../assets/front-end.svg";
+import server from "./../../assets/front-end.svg";
+import ui from "./../../assets//ux.svg";
+import svg1 from "./../../assets/front-end.svg";
+import svg2 from "./../../assets/front-end.svg";
 const Services = () => {
-	return (
-		<div className='md:w-[70%] sm:w-full p-5 mx-auto text-[#FFFFFF99] mt-5'>
-			<div>
-				<div className='space-y-8 mb-8'>
-					<p className='text-mezenda tracking-wider	'>SERVICES</p>
-					<h1 className='text-[white] text-3xl font-semibold'>Our Services</h1>
-					<p>
-						Commodo elementum, sed imperdiet nunc euismod etiam aliquet viverra enim.
-						Adipiscing nunc condimentum risus id. Aquam mattis magna facilisi
-					</p>
-				</div>
-				<div></div>
-			</div>
-			<div className='grid md:grid-cols-2 gap-0'>
-				<div className=' bg-tertiary p-5 md:p-20 space-y-10'>
-					<div className='flex justify-between'>
-						<h1 className='md:text-5xl text-3xl font-bold text-[white]'>
-							Front End Development
-						</h1>
-						<img className='w-20 md:w-[80px]' src={front} alt='' />
-					</div>
-					<p className='text-[#FFFFFF99]'>
-						Commodo elementum, sed imperdiet nunc euismod etiam aliquet viverra enim.
-						Adipiscing nunc condimentum risus id. Aquam mattis magna facilisi
-					</p>
-					<button className='service-btn inline-flex items-center justify-center  px-8 py-4 text-base font-bold leading-6 text-white text-[black] bg-[white] border border-transparent rounded-full md:w-auto hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600'>
-						Discover more
-					</button>
-				</div>
-				<div className=' bg-secondary p-5 md:p-20 space-y-10'>
-					<div className='flex justify-between'>
-						<h1 className='md:text-5xl text-3xl font-bold text-[white]'>
-							UI/UX <br /> Design
-						</h1>
-						<img className='w-20 md:w-[80px]' src={ui} alt='' />
-					</div>
-					<p className='text-[#FFFFFF99]'>
-						Commodo elementum, sed imperdiet nunc euismod etiam aliquet viverra enim.
-						Adipiscing nunc condimentum risus id. Aquam mattis magna facilisi
-					</p>
-					<button className='service-btn inline-flex items-center justify-center   px-8 py-4 text-base font-bold leading-6 text-white text-[black] bg-[white] border border-transparent rounded-full md:w-auto hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600'>
-						Discover more
-					</button>
-				</div>
-				<div className=' bg-secondary p-5 md:p-20 space-y-10'>
-					<div className='flex justify-between'>
-						<h1 className='md:text-5xl text-3xl font-bold text-[white]'>
-							Front End Development
-						</h1>
-						<img className='w-20 md:w-[80px]' src={front} alt='' />
-					</div>
-					<p className='text-[#FFFFFF99]'>
-						Commodo elementum, sed imperdiet nunc euismod etiam aliquet viverra enim.
-						Adipiscing nunc condimentum risus id. Aquam mattis magna facilisi
-					</p>
-					<button className='service-btn inline-flex items-center justify-center  px-8 py-4 text-base font-bold leading-6 text-white text-[black] bg-[white] border border-transparent rounded-full md:w-auto hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600'>
-						Discover more
-					</button>
-				</div>
-				<div className=' bg-pink p-5 md:p-20 space-y-10'>
-					<div className='flex justify-between'>
-						<h1 className='md:text-5xl text-3xl font-bold text-[white]'>
-							Front End Development
-						</h1>
-						<img className='w-20 md:w-[80px]' src={front} alt='' />
-					</div>
-					<p className='text-[#FFFFFF99]'>
-						Commodo elementum, sed imperdiet nunc euismod etiam aliquet viverra enim.
-						Adipiscing nunc condimentum risus id. Aquam mattis magna facilisi
-					</p>
-					<button className='service-btn inline-flex items-center justify-center px-8 py-4 text-base font-bold leading-6 text-white text-[black] bg-[white] border border-transparent rounded-full md:w-auto hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600'>
-						Discover more
-					</button>
-				</div>
-				<div className=' bg-tertiary p-5 md:p-20 space-y-10'>
-					<div className='flex justify-between'>
-						<h1 className='md:text-5xl text-3xl  font-bold text-[white]'>
-							Front End Development
-						</h1>
-						<img className='w-20 md:w-[80px]' src={front} alt='' />
-					</div>
-					<p className='text-[#FFFFFF99]'>
-						Commodo elementum, sed imperdiet nunc euismod etiam aliquet viverra enim.
-						Adipiscing nunc condimentum risus id. Aquam mattis magna facilisi
-					</p>
-					<button className='service-btn inline-flex items-center justify-center px-8 py-4 text-base font-bold leading-6 text-white text-[black] bg-[white] border border-transparent rounded-full md:w-auto hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600'>
-						Discover more
-					</button>
-				</div>
-				<div className=' bg-secondary p-5 md:p-20 space-y-10'>
-					<div className='flex justify-between'>
-						<h1 className='md:text-5xl text-3xl  font-bold text-[white]'>
-							Front End Development
-						</h1>
-						<img className='w-20 md:w-[80px]' src={front} alt='' />
-					</div>
-					<p className='text-[#FFFFFF99]'>
-						Commodo elementum, sed imperdiet nunc euismod etiam aliquet viverra enim.
-						Adipiscing nunc condimentum risus id. Aquam mattis magna facilisi
-					</p>
-					<button className='service-btn inline-flex items-center justify-center w-full px-8 py-4 text-base font-bold leading-6 text-white text-[black] bg-[white] border border-transparent rounded-full md:w-auto hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600'>
-						Discover more
-					</button>
-				</div>
-			</div>
-		</div>
-	);
+   return (
+      <div className="md:w-[80%]  p-5 mx-auto text-[#FFFFFF99] mt-5">
+         <div>
+            <div className="space-y-5 mb-8 max-w-[600px]">
+               <p className="text-mezenda tracking-wider	">SERVICES</p>
+               <h1 className="text-[white] text-3xl font-semibold">
+                  Our Services
+               </h1>
+               <p>
+                  Commodo elementum, sed imperdiet nunc euismod etiam aliquet
+                  viverra enim. Adipiscing nunc condimentum risus id. Aquam
+                  mattis magna facilisi
+               </p>
+            </div>
+            <div></div>
+         </div>
+         <div className="grid md:grid-cols-2 gap-0">
+            <div className=" bg-tertiary p-5 md:px-10 md:py-20 2xl:px-16 space-y-10">
+               <div className="flex justify-between">
+                  <h1 className="md:text-4xl 2xl:text-5xl  text-2xl font-bold text-[white]">
+                     Front End Development
+                  </h1>
+                  <img className="w-20 md:w-[80px]" src={front} alt="" />
+               </div>
+               <p className="text-[#FFFFFF99]">
+                  Commodo elementum, sed imperdiet nunc euismod etiam aliquet
+                  viverra enim. Adipiscing nunc condimentum risus id. Aquam
+                  mattis magna facilisi
+               </p>
+               <button className="btn-primary">Discover more</button>
+            </div>
+            <div className=" bg-secondary p-5 md:px-10 md:py-20 2xl:px-16 space-y-10  ">
+               <div className="flex justify-between">
+                  <h1 className="md:text-4xl 2xl:text-5xl  text-2xl font-bold text-[white]">
+                     UI/UX <br /> Design
+                  </h1>
+                  <img className="w-20 md:w-[80px]" src={ui} alt="" />
+               </div>
+               <p className="text-[#FFFFFF99]">
+                  Commodo elementum, sed imperdiet nunc euismod etiam aliquet
+                  viverra enim. Adipiscing nunc condimentum risus id. Aquam
+                  mattis magna facilisi
+               </p>
+               <button className="btn-primary">Discover more</button>
+            </div>
+            <div className=" bg-secondary p-5 md:px-10 md:py-20 2xl:px-16 space-y-10">
+               <div className="flex justify-between">
+                  <h1 className="md:text-4xl 2xl:text-5xl  text-2xl font-bold text-[white]">
+                     Front End Development
+                  </h1>
+                  <img className="w-20 md:w-[80px]" src={front} alt="" />
+               </div>
+               <p className="text-[#FFFFFF99]">
+                  Commodo elementum, sed imperdiet nunc euismod etiam aliquet
+                  viverra enim. Adipiscing nunc condimentum risus id. Aquam
+                  mattis magna facilisi
+               </p>
+               <button className="btn-primary">Discover more</button>
+            </div>
+            <div className=" bg-pink p-5 md:px-10 md:py-20 2xl:px-16 space-y-10">
+               <div className="flex justify-between">
+                  <h1 className="md:text-4xl 2xl:text-5xl  text-2xl font-bold text-[white]">
+                     Front End Development
+                  </h1>
+                  <img className="w-20 md:w-[80px]" src={front} alt="" />
+               </div>
+               <p className="text-[#FFFFFF99]">
+                  Commodo elementum, sed imperdiet nunc euismod etiam aliquet
+                  viverra enim. Adipiscing nunc condimentum risus id. Aquam
+                  mattis magna facilisi
+               </p>
+               <button className="btn-primary">Discover more</button>
+            </div>
+            <div className=" bg-tertiary p-5 md:px-10 md:py-20 2xl:px-16 space-y-10">
+               <div className="flex justify-between">
+                  <h1 className="md:text-4xl 2xl:text-5xl text-2xl  font-bold text-[white]">
+                     Front End Development
+                  </h1>
+                  <img className="w-20 md:w-[80px]" src={front} alt="" />
+               </div>
+               <p className="text-[#FFFFFF99]">
+                  Commodo elementum, sed imperdiet nunc euismod etiam aliquet
+                  viverra enim. Adipiscing nunc condimentum risus id. Aquam
+                  mattis magna facilisi
+               </p>
+               <button className="btn-primary">Discover more</button>
+            </div>
+            <div className=" bg-secondary p-5 md:px-10 md:py-20 2xl:px-16 space-y-10">
+               <div className="flex justify-between">
+                  <h1 className="md:text-4xl 2xl:text-5xl text-2xl  font-bold text-[white]">
+                     Front End Development
+                  </h1>
+                  <img className="w-20 md:w-[80px]" src={front} alt="" />
+               </div>
+               <p className="text-[#FFFFFF99]">
+                  Commodo elementum, sed imperdiet nunc euismod etiam aliquet
+                  viverra enim. Adipiscing nunc condimentum risus id. Aquam
+                  mattis magna facilisi
+               </p>
+               <button className="btn-primary">Discover more</button>
+            </div>
+         </div>
+      </div>
+   );
 };
 
 export default Services;
