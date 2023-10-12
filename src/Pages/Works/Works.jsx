@@ -6,9 +6,9 @@ import svg1 from "./../../assets/front-end.svg";
 import svg2 from "./../../assets/front-end.svg";
 const Works = () => {
    return (
-      <div className="md:w-[80%]  p-5 mx-auto text-[#FFFFFF99] mt-5">
-         <div className="flex justify-between items-center ">
-            <div className="space-y-5 mb-8 max-w-[600px]">
+      <div className="md:w-[80%] p-5  mx-auto text-[#FFFFFF99] mt-5">
+         <div className="flex  mb-10 md:mb-0 justify-between md:items-center items-start md:flex-row flex-col ">
+            <div className="space-y-5 mb-8  max-w-[600px]">
                <p className="text-mezenda uppercase tracking-wider">Work</p>
                <h1 className="text-[white] text-3xl font-semibold">
                   Our Works
@@ -42,7 +42,7 @@ const Works = () => {
                </p>
                <button className="btn-secondary">Discover more</button>
             </div>
-            <div className=" bg-[#e3e5f3] text-[black] p-5 md:px-10 md:py-20 2xl:px-16 space-y-10">
+            <div className=" bg-gry text-[black] p-5 md:px-10 md:py-20 2xl:px-16 space-y-10">
                <div className="">
                   <h1 className="md:text-4xl 2xl:text-5xl text-2xl  font-bold ">
                      Front End Development

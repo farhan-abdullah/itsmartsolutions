@@ -4,6 +4,7 @@ import Story from "../Story/Story";
 import Services from "../Services/Services";
 import Works from "../Works/Works";
 import Sponser from "../Sponser/Sponser";
+import About from "../About/About";
 
 const Home = () => {
    return (
@@ -11,9 +12,7 @@ const Home = () => {
          <Banner></Banner>
 
          <Story></Story>
-         {/* <div className='w-[300px] h-[200px] relative'>
-				<div className='bg-element'></div>
-			</div> */}
+         <About></About>
          <Services></Services>
          <Sponser></Sponser>
          <Works></Works>

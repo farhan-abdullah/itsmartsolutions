@@ -9,6 +9,7 @@ export default {
             tertiary: "#333787", //footer
             pink: "#DB3647",
             mezenda: "#00B9C5",
+            gry: "#e3e5f1",
          },
       },
    },
