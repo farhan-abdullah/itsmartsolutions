@@ -68,41 +68,57 @@ const Testimonials = () => {
 
    return (
       <div
-         className="w-full overflow-hidden h-[80vh] flex justify-center items-center"
+         className="w-full overflow-hidden flex justify-center items-start flex-col"
          style={{
             backgroundImage:
                'linear-gradient(#0E0F20CC,#0E0F20CC), url("https://templatekits.themewarrior.com/solvero/wp-content/uploads/sites/65/2022/09/testi-bg.jpg")',
             backgroundSize: "cover", // You can adjust this property as needed
          }}>
-         <div className="w-[80%] mx-auto flex justify-center items-center flex-col">
-            <Swiper
-               navigation={true}
-               pagination={true}
-               mousewheel={true}
-               keyboard={true}
-               slidesPerView={1}
-               modules={[Navigation]}
-               className="mySwiper w-[100%] md:h-[300px]">
-               {testimonials.map((testi, index) => (
-                  <SwiperSlide
-                     className=" filter backdrop-blur-sm w-full"
-                     key={index}>
-                     <div className="flex justify-center flex-col items-center">
-                        <img
-                           src={testi.imageUrl}
-                           className="w-[100px] h-[100px] mb-3 rounded-[100%] bg-cover"
-                           alt=""
-                        />
-                        <div className="w-[70%]">
-                           <p className="text-gray-400">{testi.feedback}</p>
-                           <h2 className="text-white font-semibold text-[22px]">
-                              {testi.name}
-                           </h2>
+         <div className="w-[80%] p-5 mx-auto py-10">
+            <div className="  flex  mb-10 md:mb-0 justify-between md:items-center items-start md:flex-row flex-col ">
+               <div className="space-y-5 mb-8  max-w-[600px]">
+                  <p className="text-mezenda uppercase tracking-wider">
+                     Testimonials
+                  </p>
+                  <h1 className="text-[white] text-3xl font-semibold">
+                     Testimonials
+                  </h1>
+                  <p className="text-gray-200">
+                     Commodo elementum, sed imperdiet nunc euismod etiam aliquet
+                     viverra enim. Adipiscing nunc condimentum risus id. Aquam
+                     mattis magna facilisi
+                  </p>
+               </div>
+               <button className="btn-red">See all</button>
+            </div>
+            <div className=" mx-auto my-6 flex justify-center items-center flex-col">
+               <Swiper
+                  navigation={true}
+                  pagination={true}
+                  mousewheel={true}
+                  keyboard={true}
+                  slidesPerView={1}
+                  modules={[Navigation]}
+                  className="mySwiper w-[100%] md:h-[300px]">
+                  {testimonials.map((testi, index) => (
+                     <SwiperSlide className=" w-full" key={index}>
+                        <div className="flex justify-center flex-col items-center">
+                           <img
+                              src={testi.imageUrl}
+                              className="w-[100px] h-[100px] mb-3 rounded-[100%] bg-cover"
+                              alt=""
+                           />
+                           <div className="w-[70%]">
+                              <p className="text-gray-400">{testi.feedback}</p>
+                              <h2 className="text-white font-semibold text-[22px]">
+                                 {testi.name}
+                              </h2>
+                           </div>
                         </div>
-                     </div>
-                  </SwiperSlide>
-               ))}
-            </Swiper>
+                     </SwiperSlide>
+                  ))}
+               </Swiper>
+            </div>
          </div>
       </div>
    );
