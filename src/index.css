@@ -3,6 +3,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html,
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
 * {
 	font-family: 'Work Sans', sans-serif;
 }
@@ -31,3 +38,14 @@
 		@apply uppercase px-[20px] 2xl:px-[26px] text-[16px] 2xl:text-[20px] py-[8px] 2xl:py-[14px] bg-[#db3647] text-white rounded-full border-2 border-[#db3647] hover:bg-transparent font-bold duration-500;
 	}
 }
+/* *,
+*::before,
+*::after {
+	box-sizing: border-box;
+	outline: 1px soldi red !important;
+	background: rgb(0 100 0 / 0.1) !important;
+	border: red !important;
+} */
+/* * {
+	outline: 1px solid red;
+} */

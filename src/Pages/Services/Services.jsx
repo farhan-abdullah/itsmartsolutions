@@ -13,14 +13,14 @@ const Services = () => {
 	});
 	return (
 		<div className='relative overflow-hidden'>
-			<div className='absolute overflow-hidden  top-0 md:-right-[200px] 2xl:-right-5 my-5'>
+			<div className='absolute overflow-hidden  top-0 md:-right-[200px] 2xl:-right-5 my-5 hidden'>
 				<img
 					className='bg-cover'
 					src='https://templatekits.themewarrior.com/solvero/wp-content/uploads/sites/65/2022/09/dot-pattern-2.png'
 					alt=''
 				/>
 			</div>
-			<div className='md:w-[80%]  relative p-5  mx-auto text-[#FFFFFF99] mt-5'>
+			<div className='md:w-[80%] relative p-5  mx-auto text-[#FFFFFF99] mt-5'>
 				<div className='mb-5'>
 					<div className='space-y-5 mb-8  max-w-[600px]'>
 						<p className='text-mezenda tracking-wider	'>SERVICES</p>

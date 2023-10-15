@@ -3,23 +3,23 @@ import logo from '../../assets/logo_white.png';
 const Footer = () => {
 	return (
 		<div className='bg-[#333787] w-full md:h-[55vh] text-[white]'>
-			<div className='md:w-[80%] mx-auto grid md:grid-cols-3 md:pt-40  md:pb-10  md:items-start  md:justify-items-center	'>
+			<div className='md:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-3 md:pt-40  md:pb-10  md:items-start  md:justify-items-center	'>
 				<div className=' flex flex-col gap-5 items-center '>
-					<img className='w-[20rem]' src={logo} alt='' />
-					<p className='w-[25rem]'>
+					<img className='md:w-[20rem] w-60' src={logo} alt='' />
+					<p className='md:w-[25rem]'>
 						IT Smart Solutions is a company that specialized in building web
 						applications for businesses and individuals.
 					</p>
 				</div>
 				<div className='border border-zinc-500 border-x-[0.5rem] my-4 w-[10rem] mx-auto md:hidden'></div>
-				<div className='flex flex-col md:space-y-10 md:pl-0 pl-10'>
+				<div className='flex flex-col md:space-y-10 md:pl-0  b'>
 					<h3 className='font-semibold'>Contact Us</h3>
 					<p>Via Trieste, 140/A, 30175 Venezia VE</p>
 					<p>itsmartsolutionsbd@gmail.com</p>
 					<p>+393896686583</p>
 				</div>
 				<div className='border border-zinc-500 border-x-[0.5rem] my-4 w-[10rem] mx-auto md:hidden'></div>
-				<div className='flex flex-col md:space-y-6 md:pl-0 pl-10'>
+				<div className='flex flex-col md:space-y-6 md:pl-0 '>
 					<h3 className='font-semibold'>Information</h3>
 					<p>About</p>
 					<p>Customer service</p>

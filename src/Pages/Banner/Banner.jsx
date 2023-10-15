@@ -14,15 +14,15 @@ const Banner = () => {
 	return (
 		<>
 			<div style={containerStyle} className='opacity-30'></div>
-			<div className='absolute text-[white] top-[14rem] left-[26rem]   '>
+			<div className='absolute text-[white] md:top-[14rem] md:left-[26rem] top-56 md:text-left text-center'>
 				<h1
 					data-aos='fade-up'
 					data-aos-delay='300'
 					data-aos-duration='2000'
-					className='text-7xl w-[45rem] font-extrabold'>
+					className='md:text-7xl md:w-[45rem] font-extrabold text-3xl'>
 					Quality Digital <br /> Services You Really Need!
 				</h1>
-				<p className='text-2xl mt-5'>
+				<p className='md:text-2xl mt-5 md:text-left text-center'>
 					We build and transform businesses by launching market-leading digital products,
 					and <br /> experiences that fuel their growth.
 				</p>

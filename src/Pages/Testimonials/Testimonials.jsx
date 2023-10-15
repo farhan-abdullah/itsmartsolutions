@@ -71,7 +71,7 @@ const Testimonials = () => {
 
    return (
       <div
-         className="md:w-full  flex justify-center items-start flex-col"
+         className="md:w-full flex justify-center items-start flex-col"
          style={{
             backgroundImage:
                'linear-gradient(#0E0F20CC,#0E0F20CC), url("https://templatekits.themewarrior.com/solvero/wp-content/uploads/sites/65/2022/09/testi-bg.jpg")',

@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom';
 
 const HomeLayout = () => {
 	return (
-		<div className='bg-primary w-full  '>
+		<div className='bg-primary'>
 			<Header></Header>
 			<Outlet></Outlet>
 			<Footer></Footer>
