@@ -6,6 +6,8 @@ import Works from "../Works/Works";
 import Sponser from "../Sponser/Sponser";
 import About from "../About/About";
 import Testimonials from "../Testimonials/Testimonials";
+import Team from "../Team/Team";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
    return (
@@ -17,6 +19,8 @@ const Home = () => {
          <Sponser></Sponser>
          <Works></Works>
          <Testimonials></Testimonials>
+         <Team></Team>
+         <Contact></Contact>
       </div>
    );
 };
