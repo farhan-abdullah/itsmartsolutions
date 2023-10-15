@@ -15,7 +15,7 @@ const Works = () => {
 				<button className='btn-red'>See all</button>
 			</div>
 			<div className='grid md:grid-cols-2'>
-				<div data-aos='fade-left' className=''>
+				<div data-aos='fade-right' className=''>
 					<img
 						src='https://templatekits.themewarrior.com/solvero/wp-content/uploads/sites/65/elementor/thumbs/work1-puhl6g1plg7tlkauw0cd726zcwplbxrxevlvkrn5h0.jpg'
 						alt=''
@@ -23,7 +23,7 @@ const Works = () => {
 					/>
 				</div>
 				<div
-					data-aos='fade-right'
+					data-aos='fade-left'
 					className=' bg-secondary p-5 md:px-10 md:py-20 2xl:px-16 space-y-10  '>
 					<div className=''>
 						<h1 className='md:text-4xl 2xl:text-5xl  text-2xl font-bold text-[white]'>
