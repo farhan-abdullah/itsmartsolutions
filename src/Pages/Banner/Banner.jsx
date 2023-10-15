@@ -8,7 +8,7 @@ const Banner = () => {
 		backgroundPosition: 'center center',
 		// Other CSS properties for the container
 		width: '100%',
-		height: '70vh',
+		height: '70dvh',
 		display: 'relative',
 	};
 	return (
