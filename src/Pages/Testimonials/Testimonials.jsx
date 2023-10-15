@@ -1,13 +1,16 @@
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
-import "swiper/css/pagination";
 
-import "./Testimonial.css";
+// import "./styles.css";
 
 // import required modules
-import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
+import { Navigation } from "swiper/modules";
+
+import "./Testimonial.css";
 
 const Testimonials = () => {
    const testimonials = [
@@ -68,13 +71,13 @@ const Testimonials = () => {
 
    return (
       <div
-         className="md:w-full overflow-hidden flex justify-center items-start flex-col"
+         className="md:w-full  flex justify-center items-start flex-col"
          style={{
             backgroundImage:
                'linear-gradient(#0E0F20CC,#0E0F20CC), url("https://templatekits.themewarrior.com/solvero/wp-content/uploads/sites/65/2022/09/testi-bg.jpg")',
             backgroundSize: "cover", // You can adjust this property as needed
          }}>
-         <div className="md:w-[80%] p-5 mx-auto md:py-10">
+         <div className=" w-[90%]  md:w-[80%] md:p-5  mx-auto py-10">
             <div className="  flex  mb-10 md:mb-0 justify-between md:items-center items-start md:flex-row flex-col ">
                <div className="space-y-5 mb-8  max-w-[600px]">
                   <p className="text-mezenda uppercase tracking-wider">
@@ -91,7 +94,7 @@ const Testimonials = () => {
                </div>
                <button className="btn-red">See all</button>
             </div>
-            <div className=" mx-auto md:my-6 flex justify-center items-center flex-col">
+            <div className=" mx-auto md:my-6 md:flex justify-center items-center flex-col">
                <Swiper
                   navigation={true}
                   pagination={true}
@@ -99,17 +102,19 @@ const Testimonials = () => {
                   keyboard={true}
                   slidesPerView={1}
                   modules={[Navigation]}
-                  className="mySwiper max-w-[100%] md:h-[300px]">
+                  className="my-[60px]">
                   {testimonials.map((testi, index) => (
-                     <SwiperSlide className="w-[100%]" key={index}>
+                     <SwiperSlide className="max-w-[100%]" key={index}>
                         <div className="flex justify-center flex-col items-center">
                            <img
                               src={testi.imageUrl}
-                              className="w-[100px] h-[100px] mb-3 rounded-[100%] bg-cover"
+                              className="md:w-[100px] w-[80px] h-[80px] md:h-[100px] mb-3 rounded-[100%] bg-cover"
                               alt=""
                            />
                            <div className="w-[70%]">
-                              <p className="text-gray-400">{testi.feedback}</p>
+                              <p className="text-gray-400 text-[14px] md:text-[18px]">
+                                 {testi.feedback}
+                              </p>
                               <h2 className="text-white font-semibold text-[22px]">
                                  {testi.name}
                               </h2>
