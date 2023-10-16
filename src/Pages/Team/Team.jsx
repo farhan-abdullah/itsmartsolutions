@@ -1,4 +1,5 @@
 import React from "react";
+import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 
 const Team = () => {
    const teams = [
@@ -8,10 +9,9 @@ const Team = () => {
          imageUrl: "https://i.ibb.co/tQRH5HP/client-5.jpg",
       },
       {
-         name: "John Doe",
-         title: "Ceo & founder",
-         imageUrl:
-            "https://i.ibb.co/9sPshc6/oliver-ragfelt-kh-V4f-Ty6-D8-unsplash.jpg",
+         name: "Monsur",
+         title: "Frontend developer",
+         imageUrl: "https://i.ibb.co/d0qJyBP/104.jpg",
       },
       {
          name: "John Doe",
@@ -50,7 +50,7 @@ const Team = () => {
                   <div key={index}>
                      <div className="card md:max-w-[300px] p-3 bg-secondary rounded-lg  border border-tertiary shadow-lg shadow-tertiary/40 h-[400px] ">
                         <img
-                           className="w-full rounded-lg h-[250px]  bg-cover "
+                           className="w-full rounded-lg h-[220px]  bg-cover "
                            src={team.imageUrl}
                            alt=""
                         />
@@ -61,6 +61,19 @@ const Team = () => {
                            <p className="text-[16px] uppercase text-gray-300">
                               {team.title}
                            </p>
+                        </div>
+
+                        <div className="space-x-3">
+                           <a
+                              href="#"
+                              className="p-2 rounded-full border-2 border-mezenda/30 inline-block  hover:bg-mezenda/60 hover:text-black duration-500 ">
+                              <FaFacebookF className=""></FaFacebookF>
+                           </a>
+                           <a
+                              href="#"
+                              className="p-2 rounded-full border-2 border-mezenda/30 inline-block  hover:bg-mezenda/60 hover:text-black duration-500 ">
+                              <FaLinkedinIn className=""></FaLinkedinIn>
+                           </a>
                         </div>
                      </div>
                   </div>
