@@ -11,7 +11,7 @@ const Services = () => {
    // });
    return (
       <div className="relative overflow-hidden">
-         <div className="absolute overflow-hidden  top-0 md:-right-[200px] 2xl:-right-5 my-5 hidden">
+         <div className="absolute overflow-hidden  top-0 md:-right-[200px] 2xl:-right-5 my-5">
             <img
                className="bg-cover"
                src="https://templatekits.themewarrior.com/solvero/wp-content/uploads/sites/65/2022/09/dot-pattern-2.png"
