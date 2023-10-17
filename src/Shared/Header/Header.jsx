@@ -54,7 +54,7 @@ const Header = () => {
 					isOpen ? 'pt-10 pb-3 md:p-0 bg-transparent' : '-mt-80 md:mt-0'
 				} `}>
 				<div className=''>
-					<img className='w-[370px] hidden md:block mt-32' src={logo} alt='' />
+					<img className='w-[370px] hidden md:block' src={logo} alt='' />
 				</div>
 				<div className='uppercase text-[white] text-[18px] md:space-x-4 flex justify-between flex-col space-y-3 md:space-y-0 items-center md:flex-row'>
 					{navLinks}
