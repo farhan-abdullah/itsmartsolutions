@@ -23,7 +23,7 @@ const Navbar = () => {
 
    return (
       <div
-         className={`fixed top-0 left-0 right-0 ${
+         className={`fixed z-30 top-0 left-0 right-0 ${
             isSticky ? "bg-white" : "bg-transparent"
          }`}>
          <div
@@ -103,7 +103,9 @@ const Navbar = () => {
                </ul>
             </div>
             <div className="navbar-end">
-               <a className="btn">Button</a>
+               <a className="btn bg-mezenda hover:bg-blue-800 duration-500 text-white border-none">
+                  Get start
+               </a>
             </div>
          </div>
       </div>
