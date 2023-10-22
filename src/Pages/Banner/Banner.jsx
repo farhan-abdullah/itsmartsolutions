@@ -21,9 +21,9 @@ const Banner = () => {
    return (
       <>
          <div
-            className="max-w-[100%] md:h-[80vh] py-20 md:py-0 mx-auto flex justify-center items-center text-center md:text-start  text-white"
+            className=" md:h-[80vh] py-20 md:py-0 mx-auto flex  items-center text-center md:text-start  text-white"
             style={bgStyle}>
-            <div className=" w-[720px] mx-auto ">
+            <div className=" w-[720px] md:mx-auto ">
                <h2 className="md:text-[50px] text-[40px] capitalize leading-none tracking-tight md:font-bold font-semibold">
                   Revolutionizing Your Online Landscape with Comprehensive
                   Digital Solutions
