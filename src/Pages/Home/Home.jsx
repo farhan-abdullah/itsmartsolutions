@@ -8,12 +8,10 @@ import About from "../About/About";
 import Testimonials from "../Testimonials/Testimonials";
 import Team from "../Team/Team";
 import Contact from "../Contact/Contact";
-import Header from "../../Shared/Header/Header";
 
 const Home = () => {
    return (
       <div>
-         <Header></Header>
          <Banner></Banner>
          <Statistics></Statistics>
          <About></About>
