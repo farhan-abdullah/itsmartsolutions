@@ -16,7 +16,7 @@ const Team = () => {
 		{
 			name: 'Najmus Shakib',
 			title: 'PR & HR',
-			imageUrl: '/src/assets/sakib.jpg',
+			imageUrl: './src/assets/sakib.jpg',
 		},
 		{
 			name: 'Farhan Abdullah',
