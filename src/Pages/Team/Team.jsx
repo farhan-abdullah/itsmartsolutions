@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
-
+import shakib from './src/assets/sakib.jpg';
 const Team = () => {
 	const teams = [
 		{
@@ -16,7 +16,7 @@ const Team = () => {
 		{
 			name: 'Najmus Shakib',
 			title: 'PR & HR',
-			imageUrl: './src/assets/sakib.jpg',
+			imageUrl: shakib,
 		},
 		{
 			name: 'Farhan Abdullah',
