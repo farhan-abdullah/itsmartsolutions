@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
-import shakib from './src/assets/sakib.jpg';
+import shakib from './../../assets/sakib.jpg';
 const Team = () => {
 	const teams = [
 		{
