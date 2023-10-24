@@ -5,7 +5,7 @@ const Footer = () => {
 		<div className='bg-[#333787] w-full text-[white]'>
 			<div className='md:w-[80%] mx-auto grid grid-cols-1 md:grid-cols-3 md:pt-40  md:pb-10  md:items-start  md:justify-items-center	'>
 				<div className=' flex flex-col gap-5 items-center '>
-					<img className='md:w-[20rem] w-60' src={logo} alt='' />
+					<img className='md:w-[10rem] w-32' src={logo} alt='' />
 					<p className='md:w-[25rem]'>
 						IT Smart Solutions is a company that specialized in building web
 						applications for businesses and individuals.
@@ -34,10 +34,10 @@ const Footer = () => {
 					<p>© 2023 It smart solutions.</p>
 				</div>
 
-				<div className='flex flex-row gap-2 lg:gap-5 '>
+				<div className='md:flex md:flex-row  lg:gap-5 space-x-2 text-center'>
 					<a href=''>Support</a>
 					<a href=''>Privacy Statement</a>
-					<a href=''>Terms of use</a>
+					<a href=''>Terms of use </a>
 					<a href=''>Cookies</a>
 				</div>
 			</div>
