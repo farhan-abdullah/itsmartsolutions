@@ -49,6 +49,7 @@ const Team = () => {
 									className='w-full rounded-lg h-[220px]  bg-cover '
 									src={team.imageUrl}
 									alt=''
+									loading='lazy'
 								/>
 								<div className='my-3'>
 									<h2 className='text-[25px] font-bold'>{team.name}</h2>
