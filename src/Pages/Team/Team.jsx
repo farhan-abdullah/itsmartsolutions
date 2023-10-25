@@ -8,21 +8,29 @@ const Team = () => {
 			name: 'Wasim Hoque',
 			title: 'IT Consultant',
 			imageUrl: wasim,
+			fb: 'https://www.facebook.com/hoquewasim',
+			linkedin: 'https://www.linkedin.com/in/hoquewasim/',
 		},
 		{
 			name: 'Monsur Alam',
 			title: 'Frontend developer',
 			imageUrl: 'https://i.ibb.co/d0qJyBP/104.jpg',
+			fb: 'https://www.facebook.com/monsur2003',
+			linkedin: 'https://www.linkedin.com/in/monsur2003/',
 		},
 		{
 			name: 'Najmus Shakib',
 			title: 'PR & HR',
 			imageUrl: shakib,
+			fb: 'https://www.facebook.com/shakib.abdullah.14',
+			linkedin: 'https://www.linkedin.com/',
 		},
 		{
 			name: 'Farhan Abdullah',
 			title: 'Ceo & founder',
 			imageUrl: ' https://i.ibb.co/BszK1zF/amir-seilsepour-5vg-Sar-Qim-A-unsplash.jpg',
+			fb: 'https://www.facebook.com/farhan.abdullah1996/',
+			linkedin: 'https://www.linkedin.com/in/farhan-abdullah/',
 		},
 	];
 
@@ -46,7 +54,7 @@ const Team = () => {
 						<div key={index}>
 							<div className='card md:max-w-[300px] p-3 bg-secondary rounded-lg  border border-tertiary shadow-lg shadow-tertiary/40 h-[400px] '>
 								<img
-									className='w-full rounded-lg h-[220px]  bg-cover '
+									className='w-full rounded-lg h-[260px]  bg-cover '
 									src={team.imageUrl}
 									alt=''
 									loading='lazy'
@@ -60,12 +68,12 @@ const Team = () => {
 
 								<div className='space-x-3'>
 									<a
-										href='#'
+										href={team.fb}
 										className='p-2 rounded-full border-2 border-mezenda/30 inline-block  hover:bg-mezenda/60 hover:text-black duration-500 '>
 										<FaFacebookF className=''></FaFacebookF>
 									</a>
 									<a
-										href='#'
+										href={team.linkedin}
 										className='p-2 rounded-full border-2 border-mezenda/30 inline-block  hover:bg-mezenda/60 hover:text-black duration-500 '>
 										<FaLinkedinIn className=''></FaLinkedinIn>
 									</a>
